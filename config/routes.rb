@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resource :contacts
   get 'store'=> 'pages#store'
   get '/money'=> 'pages#money'
   get '/about'=> 'pages#about'
