@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'store'=> 'pages#store'
+  get '/money'=> 'pages#money'
   get '/about'=> 'pages#about'
   root 'pages#home'
   
