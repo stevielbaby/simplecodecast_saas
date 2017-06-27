@@ -7,5 +7,6 @@ class Create < ActiveRecord::Migration
       
       
       t.timestamps
+    end
   end
 end
