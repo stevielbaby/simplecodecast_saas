@@ -2,3 +2,27 @@
     <h1>Welcome to the huslte</12>
     <h3> Where we make hustles great! </h3>
 </div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class= "text-center">Pro Membership</h2>
+            <ul>
+                <li><h4>Sign up for the pro account and get all access.</h4></li>
+            </ul> 
+               <%= link_to "Sign Up with Pro", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+        </div>
+     
+    </div>
+    
+     <div class="col-md-6">
+        <div class="well">
+           <h2 class= "text-center">Basic Membership</h2> 
+           <ul>
+               <li><h4>sign up for free and get basic access to the community.</h4></li>
+           </ul>
+           <%= link_to "Sign Up with Basic", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+        </div>
+        
+    </div>
+</div>
